@@ -34,7 +34,7 @@ Tracks:
 ## Installation
 
 ### Prerequisites
-- Python 3.8+
+- Python 3.13+
 - Gemini API key
 
 ### Setup
@@ -166,5 +166,6 @@ Typical quiz generation:
 - Output tokens: ~500-1000
 
 ## Maker
+
 
 Guillermo Rebolledo 100865463
