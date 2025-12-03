@@ -1,0 +1,196 @@
+{
+  "test_cases": [
+    {
+      "name": "Basic concept extraction",
+      "input_notes": "Machine learning is a subset of artificial intelligence that enables systems to learn from data. Supervised learning uses labeled data, while unsupervised learning finds patterns in unlabeled data.",
+      "num_questions": 2,
+      "expected_patterns": [
+        "machine learning",
+        "supervised",
+        "unsupervised",
+        "labeled data"
+      ],
+      "pass_threshold": 0.5
+    },
+    {
+      "name": "Technical definitions",
+      "input_notes": "A neural network consists of layers of interconnected nodes. Each node applies an activation function to its inputs. Backpropagation is used to train the network by computing gradients.",
+      "num_questions": 2,
+      "expected_patterns": [
+        "neural network",
+        "activation function",
+        "backpropagation",
+        "gradient"
+      ],
+      "pass_threshold": 0.5
+    },
+    {
+      "name": "Multi-concept coverage",
+      "input_notes": "Overfitting occurs when a model memorizes training data. Regularization techniques like L1 and L2 help prevent this. Cross-validation assesses model performance on different data subsets.",
+      "num_questions": 3,
+      "expected_patterns": [
+        "overfitting",
+        "regularization",
+        "L1 or L2",
+        "cross-validation"
+      ],
+      "pass_threshold": 0.5
+    },
+    {
+      "name": "Process-based questions",
+      "input_notes": "The scientific method involves: 1) Observation, 2) Hypothesis formation, 3) Experimentation, 4) Analysis, 5) Conclusion. Each step builds on the previous one.",
+      "num_questions": 2,
+      "expected_patterns": [
+        "scientific method",
+        "hypothesis",
+        "experimentation",
+        "steps or process"
+      ],
+      "pass_threshold": 0.5
+    },
+    {
+      "name": "Comparison questions",
+      "input_notes": "SQL databases are structured and use tables with predefined schemas. NoSQL databases are flexible and handle unstructured data. SQL is best for complex queries, NoSQL for scalability.",
+      "num_questions": 2,
+      "expected_patterns": [
+        "SQL",
+        "NoSQL",
+        "structured",
+        "scalability or flexible"
+      ],
+      "pass_threshold": 0.5
+    },
+    {
+      "name": "Historical context",
+      "input_notes": "The Internet was created in the 1960s as ARPANET. TCP/IP protocols were standardized in 1983. The World Wide Web was invented by Tim Berners-Lee in 1989.",
+      "num_questions": 2,
+      "expected_patterns": [
+        "ARPANET or Internet",
+        "1960s or 1983 or 1989",
+        "Tim Berners-Lee",
+        "TCP/IP or World Wide Web"
+      ],
+      "pass_threshold": 0.5
+    },
+    {
+      "name": "Mathematical concepts",
+      "input_notes": "The derivative measures the rate of change of a function. Integration finds the area under a curve. The fundamental theorem of calculus connects these two operations.",
+      "num_questions": 2,
+      "expected_patterns": [
+        "derivative",
+        "integration or integral",
+        "rate of change",
+        "fundamental theorem"
+      ],
+      "pass_threshold": 0.5
+    },
+    {
+      "name": "Biological systems",
+      "input_notes": "Photosynthesis converts light energy into chemical energy in plants. It occurs in chloroplasts and produces glucose and oxygen from CO2 and water.",
+      "num_questions": 2,
+      "expected_patterns": [
+        "photosynthesis",
+        "chloroplast",
+        "glucose or oxygen",
+        "light energy or chemical energy"
+      ],
+      "pass_threshold": 0.5
+    },
+    {
+      "name": "Programming paradigms",
+      "input_notes": "Object-oriented programming organizes code into objects with properties and methods. Functional programming treats computation as evaluation of mathematical functions and avoids state changes.",
+      "num_questions": 2,
+      "expected_patterns": [
+        "object-oriented",
+        "functional programming",
+        "objects or methods",
+        "functions or state"
+      ],
+      "pass_threshold": 0.5
+    },
+    {
+      "name": "Economic principles",
+      "input_notes": "Supply and demand determine market prices. When demand increases and supply stays constant, prices rise. Equilibrium is reached when supply equals demand.",
+      "num_questions": 2,
+      "expected_patterns": [
+        "supply",
+        "demand",
+        "equilibrium",
+        "price"
+      ],
+      "pass_threshold": 0.5
+    },
+    {
+      "name": "Chemical reactions",
+      "input_notes": "In a synthesis reaction, two or more substances combine to form a new compound. Decomposition reactions break compounds into simpler substances. These are opposite processes.",
+      "num_questions": 2,
+      "expected_patterns": [
+        "synthesis",
+        "decomposition",
+        "combine or break",
+        "compound"
+      ],
+      "pass_threshold": 0.5
+    },
+    {
+      "name": "Data structures",
+      "input_notes": "Arrays store elements in contiguous memory. Linked lists use nodes with pointers. Arrays offer O(1) access but O(n) insertion. Linked lists have O(n) access but O(1) insertion at head.",
+      "num_questions": 2,
+      "expected_patterns": [
+        "array",
+        "linked list",
+        "O(1) or O(n)",
+        "access or insertion"
+      ],
+      "pass_threshold": 0.5
+    },
+    {
+      "name": "Literary devices",
+      "input_notes": "Metaphor compares two things without using 'like' or 'as'. Simile uses 'like' or 'as' for comparison. Personification gives human qualities to non-human things.",
+      "num_questions": 2,
+      "expected_patterns": [
+        "metaphor",
+        "simile",
+        "personification",
+        "comparison or human qualities"
+      ],
+      "pass_threshold": 0.5
+    },
+    {
+      "name": "Physics laws",
+      "input_notes": "Newton's First Law: An object at rest stays at rest unless acted upon by force. Second Law: F=ma relates force, mass, and acceleration. Third Law: Every action has an equal and opposite reaction.",
+      "num_questions": 3,
+      "expected_patterns": [
+        "Newton",
+        "force",
+        "F=ma or acceleration",
+        "action and reaction"
+      ],
+      "pass_threshold": 0.5
+    },
+    {
+      "name": "Psychology concepts",
+      "input_notes": "Classical conditioning pairs a neutral stimulus with an unconditioned stimulus. Operant conditioning uses rewards and punishments to shape behavior. Both are forms of learning.",
+      "num_questions": 2,
+      "expected_patterns": [
+        "classical conditioning",
+        "operant conditioning",
+        "stimulus or reward or punishment",
+        "learning or behavior"
+      ],
+      "pass_threshold": 0.5
+    },
+    {
+      "name": "Climate science",
+      "input_notes": "The greenhouse effect traps heat in Earth's atmosphere. CO2 and methane are major greenhouse gases. Rising temperatures cause ice melting and sea level rise.",
+      "num_questions": 2,
+      "expected_patterns": [
+        "greenhouse effect",
+        "CO2 or methane",
+        "temperature",
+        "ice or sea level"
+      ],
+      "pass_threshold": 0.5
+    }
+  ]
+}
